@@ -115,7 +115,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
-  analytics:
+analytics:
   provider: "google"
   google:
     tracking_id: "UA-154992752-1"
