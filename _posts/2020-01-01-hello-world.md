@@ -2,6 +2,7 @@
 title: "Hello, World!"
 categories:
   - Blog
+comments: true
 ---
 
 # Welcome to my blog!
