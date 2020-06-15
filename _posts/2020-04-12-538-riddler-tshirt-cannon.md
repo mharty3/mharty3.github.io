@@ -93,7 +93,7 @@ class TShirt:
     return y
 ```
 
-To see how this works, we can define a T-shirt that is launched out of our cannon at 45 degrees (pi/2 radians). We can execute the air_time and final_x methods on the tshirt to calculate those values.
+To see how this works, we can define a T-shirt that is launched out of our cannon at 45 degrees (pi/4 radians). We can execute the air_time and final_x methods on the tshirt to calculate those values.
 
 ```python
 >>> tshirt = TShirt(31.32, np.pi/4)
