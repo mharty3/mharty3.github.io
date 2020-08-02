@@ -6,7 +6,6 @@ categories:
 toc: true
 toc_label: "Contents"
 
-header:
 comments: true
 ---
 
