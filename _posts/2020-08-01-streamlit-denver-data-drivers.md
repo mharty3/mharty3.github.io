@@ -25,7 +25,7 @@ Here are some of the talks we've had so far:
  * Random Forests by Alec Walker
 
 
-I started the talk with some audience interaction using [mentimeter](https://www.mentimeter.com/) to get some audience participation and see who was listening. You can see in the word cloud that most people are engineers and geologists in the oil and gas industry.
+Here's a snapshot of the audience for my talk:
 
 ![audience word cloud](/assets/images/ddd-streamlit/menti1zoom.png)
 
