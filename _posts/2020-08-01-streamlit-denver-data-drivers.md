@@ -8,11 +8,13 @@ header:
 comments: true
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6T6tLUeF_iw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Earlier this week I had the opportunity to give a talk at the Denver Data Drivers meetup. I covered the Python framework [Streamlit](https://www.streamlit.io). It makes building front-end data applications super easy. If you can write a Python script, then you can build an app.
 
 ![streamlit](/assets/images/ddd-streamlit/streamlit.PNG)
 
-In the talk, I gave an overview of the framework and walked step-by-step through building an application for visualizing well logs stored in las files. You can use the finished app here: ([running app](https://streamlit-las-viewer.herokuapp.com/)) ([repo](https://github.com/mharty3/streamlit-las-viewer)). Once the video is uploaded to YouTube, I'll post the link for that too.
+In the talk, I gave an overview of the framework and walked step-by-step through building an application for visualizing well logs stored in las files. You can use the finished app here: ([running app](https://streamlit-las-viewer.herokuapp.com/)) ([repo](https://github.com/mharty3/streamlit-las-viewer)). 
 
 The Denver Data Drivers are a group of mostly geologists and engineers in the oil and gas industry who are interested in learning skills related to data-driven decision making. We have been having talks over Webex every week or so over the last few months on a variety of topics in this space.
 
