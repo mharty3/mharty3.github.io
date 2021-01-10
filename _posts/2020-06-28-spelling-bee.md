@@ -8,6 +8,7 @@ toc_label: "Contents"
 
 comments: true
 ---
+**UPDATE:** The app described in this post is [**now live**](https://share.streamlit.io/mharty3/spelling_bee/app/streamlit_app.py) with a front-end built using the streamlit framework and is hosted on Streamlit Sharing. Be sure to check out [Part 2](https://mharty3.github.io/blog/spelling-bee-part-2/) of this series to read about my experience with that platform.
 
 Lately Sarah and I have been enjoying solving the Spelling Bee Puzzle from the New York Times. Every day, they release a new puzzle with seven letters. The challenge is to come up with as many words as you can that are spelled using only those letters. There is also a "center letter" which must be included in each word. You get more points for longer words, and pangrams, words that use all seven letters at least once, are worth a bonus.
 
