@@ -1,5 +1,5 @@
 ---
-permalink: /til/
+permalink: /today-i-learned/
 title: "Today I Learned"
 ---
 
