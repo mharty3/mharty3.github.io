@@ -1,5 +1,5 @@
 ---
-title: "538 Riddler: How to Catch a T-Shirt at a Music Festival"
+title: "Using simulation to make hard math easy: How to Catch a T-Shirt at a Music Festival"
 categories:
   - Blog
 header:
