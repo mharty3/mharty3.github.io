@@ -1,6 +1,9 @@
 ---
 permalink: /about/
 title: "About Me"
+header:
+    overlay_image: assets/images/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg
+    overlay_filter: .2
 ---
 
 ## Who I am
