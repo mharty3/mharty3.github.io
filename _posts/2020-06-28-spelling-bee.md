@@ -2,7 +2,13 @@
 title: "Using Python and Flask to Beat the NYT Spelling Bee Puzzle: Part 1"
 categories:
   - Blog
-
+tags:
+  - Deployment
+  - Docker
+  - Flask
+  - CI/CD
+  - Unit Testing
+  - Python
 toc: true
 toc_label: "Contents"
 

@@ -2,6 +2,11 @@
 title: "Beat the NYT Spelling Bee: Part 2, A front-end app hosted on Streamlit Sharing"
 categories:
   - Blog
+tags:
+  - Deployment
+  - Streamlit
+  - Python
+
 comments: true
 ---
 

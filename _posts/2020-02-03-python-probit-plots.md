@@ -2,6 +2,9 @@
 title: "Probit Plots in Python"
 categories:
   - Blog
+tags:
+  - Probit Plots
+  - Python
 header:
   teaser: /assets/images/probit-plots/final-probit-plot.svg
 comments: true

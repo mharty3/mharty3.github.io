@@ -2,6 +2,9 @@
 title: "Using simulation to make hard math easy: How to Catch a T-Shirt at a Music Festival"
 categories:
   - Blog
+tags:
+  - Simulation
+  - Python
 header:
   teaser: /assets/images/tshirt-simulation.gif
 comments: true

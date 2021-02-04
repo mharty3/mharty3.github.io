@@ -2,7 +2,10 @@
 title: "Intro to Streamlit, a Talk at Denver Data Drivers"
 categories:
   - Blog
-
+tags:
+  - Streamlit
+  - My Talks
+  - Python
 header:
   teaser: /assets/images/ddd-streamlit/streamlit.PNG
 comments: true
