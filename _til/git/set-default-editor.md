@@ -1,7 +1,6 @@
 ---
-Set git's default text editor to vs code
+title: 'Set git's default text editor to vs code (git)'
 ---
-# Set git's default text editor to vs code (git)
 Type the following command into the terminal:
 
 `git config --global core.editor "code --wait"`

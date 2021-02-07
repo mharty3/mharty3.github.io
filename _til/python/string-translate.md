@@ -1,7 +1,6 @@
 ---
-Replace multiple characters in a string using `string.translate()`
+title: 'Replace multiple characters in a string using `string.translate()` (python)'
 ---
-# Replace multiple characters in a string using `string.translate()` (python)
 If you need to replace a character in a string, you can use `string.replace(old, new)` or `re.swap(pattern, new, string)` if you need regex.
 
 If you need to replace many characters at once, it can be easier to use the string method `string.translate(table)` which returns a copy of the string in which each character has been mapped through the given translation table. The translation table can be conveniently created from a character to character dict mapping using the `str.maketrans()` method.

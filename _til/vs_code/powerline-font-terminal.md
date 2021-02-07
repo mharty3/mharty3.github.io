@@ -1,7 +1,6 @@
 ---
-Set a powerline enabled font in the terminal
+title: 'Set a powerline enabled font in the terminal (vs_code)'
 ---
-# Set a powerline enabled font in the terminal (vs_code)
 Add this to `settings.json`
 
 `"terminal.integrated.fontFamily": "Cascadia Mono PL"`

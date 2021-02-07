@@ -1,7 +1,6 @@
 ---
-Convert a closed linestring to a polygon
+title: 'Convert a closed linestring to a polygon (geopandas)'
 ---
-# Convert a closed linestring to a polygon (geopandas)
 Petrel often treats polygons as linestrings with the same starting and ending point. When they are exported as shapefiles or other spatial data formats, you may expect them to be polygons, but they aren't actually closed.
 
 To fix this using geopandas, you can to convert the geometry of the geodataframe using `shapely.geometry.Polygon`.

@@ -1,7 +1,6 @@
 ---
-Using command line arguments when running a python script
+title: 'Using command line arguments when running a python script (python)'
 ---
-# Using command line arguments when running a python script (python)
 When running a Python script from the command line, you can pass arguments separated by spaces.
 
 `python script.py arg1 arg2`

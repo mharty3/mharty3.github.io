@@ -1,7 +1,6 @@
 ---
-Group Well Survey Points into Lines
+title: 'Group Well Survey Points into Lines (geopandas)'
 ---
-# Group Well Survey Points into Lines (geopandas)
 This is a useful snippet when working with well survey data. The points stored in the database as individual points, and commonly you want one LineString per well containing all the points for that well.
 
 First groupby `WELL ID` or whatever unique field identifies each well and apply `shapely.geometry.LineString` to the list of points. Then convert the resulting dataframe back to a geodataframe. 

@@ -1,7 +1,6 @@
 ---
-Raster affine transforms in Python
+title: 'Raster affine transforms in Python (GIS)'
 ---
-# Raster affine transforms in Python (GIS)
 [Very helpful blog from perrygeo](https://www.perrygeo.com/python-affine-transforms.html)
 
 >The typical geospatial coordinate reference system is defined on a cartesian plane with the 0,0 origin in the bottom left and X and Y increasing as you go up and to the right. But raster data, coming from its image processing origins, uses a different referencing system to access pixels. We refer to rows and columns with the 0,0 origin in the upper left and rows increase and you move down while the columns increase as you go right. Still a cartesian plane but not the same one. 

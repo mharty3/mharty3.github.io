@@ -1,7 +1,6 @@
 ---
-Avoid nested for loops with itertools.product()
+title: 'Avoid nested for loops with itertools.product() (python)'
 ---
-# Avoid nested for loops with itertools.product() (python)
 The Python itertools module contains many useful iterator functions. This entry will focus on the combinatoric iterators. 
 
 Today I [solved](https://github.com/mharty3/advent_of_code/blob/main/2020/1.ipynb) the [advent of code puzzle](https://adventofcode.com/2020/day/1) using nested for loops to iterate over each item in an array twice:

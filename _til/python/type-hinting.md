@@ -1,7 +1,6 @@
 ---
-Using type hints in python
+title: 'Using type hints in python (python)'
 ---
-# Using type hints in python (python)
 Python is a dynamically typed language. This means it's flexible about the data types that are contained with in variables and objects. Contrast this with a statically typed language like C++ or Java. In statically typed languages, the data type contained within a variable must be declared before the variable can be used. Once the variable is declared and defined, trying to use that variable to store a different type of data will cause a compilation error. In dynamically typed languages like Python, there is no problem changing the data type of a variable.
 
 ## Why?

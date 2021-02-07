@@ -1,7 +1,6 @@
 ---
-Write the output of curl to a file
+title: 'Write the output of curl to a file (curl)'
 ---
-# Write the output of curl to a file (curl)
 Passing the `-o <file>` or `--output <file>` flag to curl saves the output to a file rather than to stdout.
 
 For example, in the github action for my til repo, the command `curl --fail -o main/til.db https://raw.githubusercontent.com/mharty3/til-db/main/til.db` downloads the til database and saves it to the file `main/til.db`

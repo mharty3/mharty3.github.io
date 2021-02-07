@@ -1,7 +1,6 @@
 ---
-Query for Table and Column Names in a Database
+title: 'Query for Table and Column Names in a Database (SQL)'
 ---
-# Query for Table and Column Names in a Database (SQL)
 When working in a new database or one with a complicated schema, it is useful to be able to query for table names and column names in the database. For each flavor of SQL, it is slightly different.
 
 ## MSSQL

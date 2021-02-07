@@ -1,7 +1,6 @@
 ---
-Accessing the parts of a file path with Pathlib
+title: 'Accessing the parts of a file path with Pathlib (python)'
 ---
-# Accessing the parts of a file path with Pathlib (python)
 Pathlib is the module in Python (>3.4) for working with filesystem paths. It has a lot of useful methods. One useful set of methods are those to access the various parts of a path. It's much easier and more reliable than trying to split strings on forward slashes or back slashes. Don't forget that Windows uses backslashes and Unix systems use forward slashes to separate parts of paths. This can cause things to get tricky when working across platforms. 
 
 See the relevant documentation [here](https://docs.python.org/3/library/pathlib.html#accessing-individual-parts). There are more examples there.

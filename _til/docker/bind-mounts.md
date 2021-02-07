@@ -1,7 +1,6 @@
 ---
-Creating a bind mount into a docker container
+title: 'Creating a bind mount into a docker container (docker)'
 ---
-# Creating a bind mount into a docker container (docker)
 By default, data in a container does not persist when a running container is stopped. Also, it is difficult to get data out of a running container if it is needed by another process. 
 
 One way to get around this is to store files on the host machine using a *bind mount*. (The other way is by using *volumes*, which are similar but have some important differences not discussed here.)

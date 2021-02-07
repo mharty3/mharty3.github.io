@@ -1,7 +1,6 @@
 ---
-Create and activate a virtual environment in Python
+title: 'Create and activate a virtual environment in Python (python)'
 ---
-# Create and activate a virtual environment in Python (python)
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Whosoever makes a static webpage that just has two things on it:<br><br>1. Unix/Mac/Windows command for creating a new venv environment<br>2. Unix/Mac/Windows command for activating new venv environment<br><br>will achieve super-high search rankings almost instantaneously.</p>&mdash; Vicki Boykis (@vboykis) <a href="https://twitter.com/vboykis/status/1181381908493672449?ref_src=twsrc%5Etfw">October 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 

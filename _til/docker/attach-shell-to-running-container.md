@@ -1,7 +1,6 @@
 ---
-Attach shell to running container
+title: 'Attach shell to running container (docker)'
 ---
-# Attach shell to running container (docker)
 To attach a shell to a running container, first find the container name or id by running:
 
 `docker ps` or `docker container ls`
