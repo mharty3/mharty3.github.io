@@ -6,7 +6,9 @@ toc: true
 
 
 
-My Today I Learned snippets. Adapted from [simonw/til](https://github.com/simonw/til) and [tomviner/til](https://github.com/timviner/til), which I learned about [on Twitter](https://twitter.com/vboykis/status/1312024421964578822?s=20).
+This is where I keep track of things I learn. You can read my post about it [here]('/blog/til').
+
+Adapted from [simonw/til](https://github.com/simonw/til), which I learned about [on Twitter](https://twitter.com/vboykis/status/1312024421964578822?s=20).
 
 <!-- count starts -->24<!-- count ends --> TILs so far.
 
