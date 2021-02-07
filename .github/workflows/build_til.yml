@@ -1,0 +1,54 @@
+name: Build TIL
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+      # We need full history to introspect created/updated:
+      with:
+        fetch-depth: 0
+        path: main
+    - name: Checkout til-db
+      uses: actions/checkout@v2
+      with:
+        repository: mharty3/til-db
+        path: til-db
+        token: ${{ secrets.PAT }}
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - uses: actions/cache@v2
+      name: Configure pip caching
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r master/requirements.txt
+    - name: Download til database unless REBUILD in commit message
+      run: curl --fail -o master/build_til/til.db https://raw.githubusercontent.com/mharty3/til-db/main/til.db
+      continue-on-error: true
+    - name: Update README
+      run: |-
+        cd main
+        python update_readme.py --rewrite
+        cat README.md
+    - name: Commit and push if README changed
+      run: |-
+        cd main
+        git diff
+        git config --global user.email "readme-bot@example.com"
+        git config --global user.name "README-bot"
+        git diff --quiet || (git add README.md && git commit -m "Updated README")
+        git push
