@@ -1,6 +1,9 @@
 ---
 permalink: /resources/
 title: "Resources For Learning Python"
+tags:
+  - Learning
+  - Python
 ---
 **2021 UPDATE:** This was the first post I wrote for the site back in 2019. At that point, I published it as a standalone article. Now I'm giving it some updates and placing it in the feed with the rest of my blog posts.
 
