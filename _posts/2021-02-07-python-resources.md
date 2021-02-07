@@ -2,13 +2,32 @@
 permalink: /resources/
 title: "Resources For Learning Python"
 ---
+**2021 UPDATE:** This was the first post I wrote for the site back in 2019. At that point, I published it as a standalone article. Now I'm giving it some updates and placing it in the feed with the rest of my blog posts.
 
-When people I work with find out that I use Python to work with data and solve problems, they usually ask one of two questions: "What kind of stuff can you do with it?" and "How did you learn it?" This is an attempt at putting my answers in one place so I can easily point people here. This page is a collection of tutorials and reference material. But don't forget that it's best to learn by doing. Learn some of the basics from these resources, start trying to solve some problems, and then learn what you need as you go. Google and Stack Overflow are your friends.
+
+When people I work with find out that I use Python to work with data and solve problems, they usually ask two questions: "What kind of stuff can you do with it?" and "How did you learn it?" 
+
+This post puts my answers in one, handy place so I can point those people here. It's a collection of tutorials and reference material. But don't forget that it's best to learn by doing. Learn some of the basics from these resources, start trying to solve some problems, and then learn what you need as you go. Google and Stack Overflow are your friends.
 
 # What kind of stuff can you do with it?
-This is definitely the right question to ask first. It's way easier to learn Python if you have a problem you want to solve in mind. Learning to code is not particularly hard, but you *will* run into quite a few challenging road blocks. If you decide to start learning python without a clear goal, these road blocks might be discouraging enough to make you decide your time is better spent elsewhere. But if you come into the process with the concrete knowledge of how learning these skills will help you, you will have the motivation to push through.
+This is definitely the right question to ask first. It's way easier to learn Python if you have a problem you want to solve in mind. Learning to code does not have to be hard, but you *will* run into quite a few challenging road blocks. If you decide to start learning python without a clear goal, these road blocks might be discouraging enough to make you decide your time is better spent elsewhere. But if you come into the process with the concrete knowledge of how learning these skills will help you, you will have the motivation to push through.
 
 With that in mind, these are some of my favorite places to go for inspiration and to learn some of what can be done. If you are new to Python, take a look at some of these resources. Don't be discouraged if you don't understand how any of it works or if you are confused by the code. You will learn. 
+
+### Software Underground and Transform Virtual Conferences
+If you come from a geoscience background and are interested in using computers to solve problems, [The Software Underground](https://softwareunderground.org/) is the place to be. It's an active online community of 3,000+ digital subsurface professionals. The slack community is an excellent place to learn about new tools, find project inspiration, get help on an issue you're stuck on, or network and make new friends.
+
+<img src="/assets/images/swung_round_no_text.png" style= "max_width: 500px; vertical-align: middle;"/>
+
+The community has started an annual event, called the Transform Virtual Conference, filled with tutorials, a hackathon, lightening talks, "unconference" meetings, and much more. 
+
+The tutorials are an excellent resource for learning beginner and intermediate programming skills, and all can be found on the [YouTube Channel](https://www.youtube.com/c/SoftwareUnderground/playlists).
+
+Here are a few I'd recommend to start with:
+* [Getting Started With Python](https://www.youtube.com/watch?v=iIOMiN8Cacs&list=PLgLft9vxdduD8Zydz4dRJqIzCWDlPKITC&index=1)
+* [Using Python Subsurface Tools](https://www.youtube.com/watch?v=oytSwhqvKbc&list=PLgLft9vxdduD8Zydz4dRJqIzCWDlPKITC&index=2)
+* [Intro to Interactive Visualization in Jupyter for Well Data](https://www.youtube.com/watch?v=ud4EZiNpblM&list=PLgLft9vxdduD8Zydz4dRJqIzCWDlPKITC&index=8)
+
 
 ### [Agile Scientific's Blog "X-Lines of Python" Series](https://agilescientific.com/blog/category/X+Lines)
 ![](../assets/images/xlines-logo.png?thumbnail)
@@ -76,4 +95,11 @@ As a geologist, almost all the data I work with has some spatial element to it. 
 
 [This site](../assets/images/earth-lab-logo.png) hosts free tutorials, workshops and courses for learning how to work with spatial data in both Python and R developed by Earth Lab at University of Colorado, Boulder. There is also great material on the site covering important topics like the importance of reproducible, open science, git and GitHub for version control and collaboration, and unit testing.
 
+### GeostatsGuy
 
+
+<img src="/assets/images/pyrcz.jpg" style= "max_width: 500px; vertical-align: middle;"/>
+
+Michael Pyrcz (a.k.a. GeostatsGuy) is an associate professor working in Data Analytics, Geostatistics and Machine Learning at The University of Texas at Austin, Austin, Texas. He has created an absolutely incredible array of resources for learning geostatistics, spatial analytics and machine learning. 
+
+Check out [his content inventory here.](https://github.com/GeostatsGuy/Resources)
