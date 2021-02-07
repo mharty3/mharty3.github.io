@@ -3,8 +3,10 @@ import pathlib
 import sqlite_utils
 import sys
 import re
+import os
 
-root = pathlib.Path(__file__).parent.resolve()
+root = pathlib.Path(__file__).parent.resolve().parents[0]
+
 
 index_re = re.compile(r"<!\-\- index starts \-\->.*<!\-\- index ends \-\->", re.DOTALL)
 count_re = re.compile(r"<!\-\- count starts \-\->.*<!\-\- count ends \-\->", re.DOTALL)
@@ -12,7 +14,9 @@ count_re = re.compile(r"<!\-\- count starts \-\->.*<!\-\- count ends \-\->", re.
 COUNT_TEMPLATE = "<!-- count starts -->{}<!-- count ends -->"
 
 if __name__ == "__main__":
-    db = sqlite_utils.Database(root / "til.db")
+    db = sqlite_utils.Database(root / "build_til/til.db")
+
+    # Update TIL main page
     by_topic = {}
     for row in db["til"].rows_where(order_by="created_utc"):
         by_topic.setdefault(row["topic"], []).append(row)
@@ -20,21 +24,40 @@ if __name__ == "__main__":
     for topic, rows in by_topic.items():
         index.append("## {}\n".format(topic))
         for row in rows:
-            index.append(
-                "* [{title}]({url}) - {date}".format(
-                    date=row["created"].split("T")[0], **row
-                )
-            )
+            title = row['title']
+            url = row['url']
+            
+            # update url to be relative to site root
+            url_parts = url.split('/')
+            topic = url_parts[-2]
+            file_name = url_parts[-1].split('.')[0]
+            url_updated = f'/til/{topic}/{file_name}'
+
+            date=row["created"].split("T")[0]
+
+            index.append(f"* [{title}]({url_updated}) - {date}")
         index.append("")
     if index[-1] == "":
         index.pop()
     index.append("<!-- index ends -->")
     if "--rewrite" in sys.argv:
-        readme = root / "README.md"
+        til_page = root / "_pages/til.md"
         index_txt = "\n".join(index).strip()
-        readme_contents = readme.open().read()
-        rewritten = index_re.sub(index_txt, readme_contents)
+        til_contents = til_page.open().read()
+        rewritten = index_re.sub(index_txt, til_contents)
         rewritten = count_re.sub(COUNT_TEMPLATE.format(db["til"].count), rewritten)
-        readme.open("w").write(rewritten)
+        til_page.open("w").write(rewritten)
     else:
         print("\n".join(index))
+
+
+    # create md files for the til's from the database
+    for row in db["til"].rows_where(order_by="created_utc"):
+        os.makedirs(root / "_til" / row["topic"], exist_ok=True)
+        with open(root / "_til" / row["topic"] / row["url"].split('/')[-1], 'w+') as f:
+            f.write("---\n")
+            f.write(row["title"])
+            f.write("\n")
+            f.write("---\n")
+            f.write(f"# {row['title']} ({row['topic']})\n")
+            f.write(row["body"])
