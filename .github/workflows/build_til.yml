@@ -39,16 +39,16 @@ jobs:
     - name: Download til database unless REBUILD in commit message
       run: curl --fail -o master/build_til/til.db https://raw.githubusercontent.com/mharty3/til-db/main/til.db
       continue-on-error: true
-    - name: Update README
+    - name: Build TIL
       run: |-
         cd main
-        python update_readme.py --rewrite
-        cat README.md
-    - name: Commit and push if README changed
+        python build_til/build_til.py --rewrite
+        cat _pages/til.md
+    - name: Commit and push if TIL changed
       run: |-
         cd main
         git diff
-        git config --global user.email "readme-bot@example.com"
-        git config --global user.name "README-bot"
-        git diff --quiet || (git add README.md && git commit -m "Updated README")
+        git config --global user.email "til-bot@example.com"
+        git config --global user.name "TIL-bot"
+        git diff --quiet || (git add _pages/til.md && git commit -m "Updated TIL")
         git push
