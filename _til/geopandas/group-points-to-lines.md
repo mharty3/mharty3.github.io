@@ -1,5 +1,5 @@
 ---
-title: 'Group Well Survey Points into Lines (geopandas)'
+title: "Group Well Survey Points into Lines (geopandas)"
 ---
 This is a useful snippet when working with well survey data. The points stored in the database as individual points, and commonly you want one LineString per well containing all the points for that well.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Convert a closed linestring to a polygon (geopandas)'
+title: "Convert a closed linestring to a polygon (geopandas)"
 ---
 Petrel often treats polygons as linestrings with the same starting and ending point. When they are exported as shapefiles or other spatial data formats, you may expect them to be polygons, but they aren't actually closed.
 

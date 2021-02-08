@@ -1,5 +1,5 @@
 ---
-title: 'Creating a bind mount into a docker container (docker)'
+title: "Creating a bind mount into a docker container (docker)"
 ---
 By default, data in a container does not persist when a running container is stopped. Also, it is difficult to get data out of a running container if it is needed by another process. 
 

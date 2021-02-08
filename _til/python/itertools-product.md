@@ -1,5 +1,5 @@
 ---
-title: 'Avoid nested for loops with itertools.product() (python)'
+title: "Avoid nested for loops with itertools.product() (python)"
 ---
 The Python itertools module contains many useful iterator functions. This entry will focus on the combinatoric iterators. 
 

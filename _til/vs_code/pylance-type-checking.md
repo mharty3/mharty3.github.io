@@ -1,5 +1,5 @@
 ---
-title: 'Enabling the type checking feature in vscode (vs_code)'
+title: "Enabling the type checking feature in vscode (vs_code)"
 ---
 The Pylance extension has many tools for helping write Python better and faster. By defalult, it's type checking functionality is turned off.
 

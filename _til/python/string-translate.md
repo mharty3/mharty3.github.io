@@ -1,5 +1,5 @@
 ---
-title: 'Replace multiple characters in a string using `string.translate()` (python)'
+title: "Replace multiple characters in a string using `string.translate()` (python)"
 ---
 If you need to replace a character in a string, you can use `string.replace(old, new)` or `re.swap(pattern, new, string)` if you need regex.
 

@@ -1,5 +1,5 @@
 ---
-title: 'How to avoid SSLError [SSL: CERTIFICATE_VERIFY_FAILED] (pip)'
+title: "How to avoid SSLError [SSL: CERTIFICATE_VERIFY_FAILED] (pip)"
 ---
 Ignore SSL errors by setting pypi.org and files.pythonhosted.org as trusted hosts.
 

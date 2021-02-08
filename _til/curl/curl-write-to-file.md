@@ -1,5 +1,5 @@
 ---
-title: 'Write the output of curl to a file (curl)'
+title: "Write the output of curl to a file (curl)"
 ---
 Passing the `-o <file>` or `--output <file>` flag to curl saves the output to a file rather than to stdout.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Set git's default text editor to vs code (git)'
+title: "Set git's default text editor to vs code (git)"
 ---
 Type the following command into the terminal:
 

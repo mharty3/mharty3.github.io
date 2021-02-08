@@ -15,6 +15,13 @@ Adapted from [simonw/til](https://github.com/simonw/til), which I learned about 
 <!-- count starts -->24<!-- count ends --> TILs so far.
 
 <!-- index starts -->
+## Recently Added
+
+* [a test file to see how github actions will handle it (dummy_category)](/til/dummy_category/dummy) - 2021-02-03
+* [Binning data with cut and qcut (pandas)](/til/pandas/binning-data) - 2021-01-15
+* [Using type hints in python (python)](/til/python/type-hinting) - 2021-01-15
+* [Accessing the parts of a file path with Pathlib (python)](/til/python/path-parts-in-pathlib) - 2021-01-15
+* [Enabling the type checking feature in vscode (vs_code)](/til/vs_code/pylance-type-checking) - 2021-01-15
 ## geopandas
 
 * [Convert a closed linestring to a polygon](/til/geopandas/close-linestring-polygon) - 2020-10-15

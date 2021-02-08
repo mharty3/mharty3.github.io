@@ -1,5 +1,5 @@
 ---
-title: 'Set a powerline enabled font in the terminal (vs_code)'
+title: "Set a powerline enabled font in the terminal (vs_code)"
 ---
 Add this to `settings.json`
 

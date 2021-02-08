@@ -1,5 +1,5 @@
 ---
-title: 'Using command line arguments when running a python script (python)'
+title: "Using command line arguments when running a python script (python)"
 ---
 When running a Python script from the command line, you can pass arguments separated by spaces.
 

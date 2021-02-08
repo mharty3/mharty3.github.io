@@ -1,5 +1,5 @@
 ---
-title: 'Binning data with cut and qcut (pandas)'
+title: "Binning data with cut and qcut (pandas)"
 ---
 When working with continuous numerical data, it can often be helpful to split it into buckets or bins based on some cutoffs. There are two useful pandas methods for this: [pd.cut](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.cut.html) and [pd.qcut](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.qcut.html). 
 
