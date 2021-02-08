@@ -37,7 +37,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r main/requirements.txt
     - name: Download til database unless REBUILD in commit message
-      run: curl --fail -o master/build_til/til.db https://raw.githubusercontent.com/mharty3/til-db/main/til.db
+      run: curl --fail -o main/build_til/til.db https://raw.githubusercontent.com/mharty3/til-db/main/til.db
       continue-on-error: true
     - name: Build TIL
       run: |-
