@@ -17,10 +17,32 @@ if __name__ == "__main__":
     db = sqlite_utils.Database(root / "build_til/til.db")
 
     # Update TIL main page
+    index = ["<!-- index starts -->"]
+
+    # add recently added
+    index.append("## Recently Added\n")
+    for i, row in enumerate(db["til"].rows_where(order_by="created_utc DESC")):
+        if i < 5:
+            # print("* row['title']")
+            title = row['title']
+            url = row['url']
+            
+            # update url to be relative to site root
+            url_parts = url.split('/')
+            topic = url_parts[-2]
+            file_name = url_parts[-1].split('.')[0]
+            url_updated = f'/til/{topic}/{file_name}'
+
+            date=row["created"].split("T")[0]
+            index.append(f"* [{title} ({topic})]({url_updated}) - {date}")
+        else:
+            index.append
+            break
+
     by_topic = {}
     for row in db["til"].rows_where(order_by="created_utc"):
         by_topic.setdefault(row["topic"], []).append(row)
-    index = ["<!-- index starts -->"]
+    
     for topic, rows in by_topic.items():
         index.append("## {}\n".format(topic))
         for row in rows:
@@ -52,10 +74,11 @@ if __name__ == "__main__":
 
 
     # create md files for the til's from the database
-    for row in db["til"].rows_where(order_by="created_utc"):
-        os.makedirs(root / "_til" / row["topic"], exist_ok=True)
-        with open(root / "_til" / row["topic"] / row["url"].split('/')[-1], 'w+') as f:
-            f.write("---\n")
+    if "--rewrite" in sys.argv:
+        for row in db["til"].rows_where(order_by="created_utc"):
+            os.makedirs(root / "_til" / row["topic"], exist_ok=True)
+            with open(root / "_til" / row["topic"] / row["url"].split('/')[-1], 'w+') as f:
+                f.write("---\n")
                 f.write(f'title: \"{row["title"]} ({row["topic"]})\"')
                 f.write("\n")
                 f.write("---\n")
