@@ -56,7 +56,7 @@ if __name__ == "__main__":
         os.makedirs(root / "_til" / row["topic"], exist_ok=True)
         with open(root / "_til" / row["topic"] / row["url"].split('/')[-1], 'w+') as f:
             f.write("---\n")
-            f.write(f'title: \'{row["title"]} ({row["topic"]})\'')
-            f.write("\n")
-            f.write("---\n")
-            f.write(row["body"])
+                f.write(f'title: \"{row["title"]} ({row["topic"]})\"')
+                f.write("\n")
+                f.write("---\n")
+                f.write(row["body"])
