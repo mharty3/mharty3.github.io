@@ -1,9 +1,8 @@
 name: Build TIL
 
 on:
-  push:
-    branches:
-    - master
+  repository_dispatch:
+    types: [sample_push]
 
 jobs:
   build:
