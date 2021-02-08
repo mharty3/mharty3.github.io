@@ -50,5 +50,5 @@ jobs:
         git diff
         git config --global user.email "til-bot@example.com"
         git config --global user.name "TIL-bot"
-        git diff --quiet || (git add _pages/til.md && git commit -m "Updated TIL")
+        git diff --quiet || (git add _pages/til.md && git add _til && git commit -m "Updated TIL")
         git push
