@@ -12,16 +12,16 @@ This is where I keep track of things I learn. You can read my post about it [her
 
 Adapted from [simonw/til](https://github.com/simonw/til), which I learned about [on Twitter](https://twitter.com/vboykis/status/1312024421964578822?s=20).
 
-<!-- count starts -->24<!-- count ends --> TILs so far.
+<!-- count starts -->23<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## Recently Added
 
-* [a test file to see how github actions will handle it (dummy_category)](/til/dummy_category/dummy) - 2021-02-03
 * [Binning data with cut and qcut (pandas)](/til/pandas/binning-data) - 2021-01-15
 * [Using type hints in python (python)](/til/python/type-hinting) - 2021-01-15
 * [Accessing the parts of a file path with Pathlib (python)](/til/python/path-parts-in-pathlib) - 2021-01-15
 * [Enabling the type checking feature in vscode (vs_code)](/til/vs_code/pylance-type-checking) - 2021-01-15
+* [Using try-except to allow for optional imports in a module (python)](/til/python/optional-imports) - 2021-01-09
 ## geopandas
 
 * [Convert a closed linestring to a polygon](/til/geopandas/close-linestring-polygon) - 2020-10-15
@@ -45,8 +45,8 @@ Adapted from [simonw/til](https://github.com/simonw/til), which I learned about 
 
 * [Create and activate a virtual environment in Python](/til/python/create-and-activate-venv) - 2020-10-18
 * [Using command line arguments when running a python script](/til/python/python-comand-line-arguments) - 2020-11-17
-* [Avoid nested for loops with itertools.product()](/til/python/itertools-product) - 2020-12-01
 * [Use black code formatting in Jupyter](/til/python/black-code-formatting-in-jupyter) - 2020-12-01
+* [Avoid nested for loops with itertools.product()](/til/python/itertools-product) - 2020-12-01
 * [Replace multiple characters in a string using `string.translate()`](/til/python/string-translate) - 2020-12-06
 * [Using try-except to allow for optional imports in a module](/til/python/optional-imports) - 2021-01-09
 * [Using type hints in python](/til/python/type-hinting) - 2021-01-15
@@ -74,8 +74,4 @@ Adapted from [simonw/til](https://github.com/simonw/til), which I learned about 
 ## pandas
 
 * [Binning data with cut and qcut](/til/pandas/binning-data) - 2021-01-15
-
-## dummy_category
-
-* [a test file to see how github actions will handle it](/til/dummy_category/dummy) - 2021-02-03
 <!-- index ends -->
