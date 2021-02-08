@@ -76,8 +76,8 @@ if __name__ == "__main__":
 
     # create md files for the til's from the database
     if "--rewrite" in sys.argv:
+        shutil.rmtree(root / "_til")
         for row in db["til"].rows_where(order_by="created_utc"):
-            shutil.rmtree(root / "_til")
             os.makedirs(root / "_til" / row["topic"], exist_ok=True)
             with open(root / "_til" / row["topic"] / row["url"].split('/')[-1], 'w+') as f:
                 f.write("---\n")
