@@ -12,16 +12,16 @@ This is where I keep track of things I learn. You can read my post about it [her
 
 Adapted from [simonw/til](https://github.com/simonw/til), which I learned about [on Twitter](https://twitter.com/vboykis/status/1312024421964578822?s=20).
 
-<!-- count starts -->24<!-- count ends --> TILs so far.
+<!-- count starts -->25<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## Recently Added
 
+* [Allow workflows to interact with other repos using Personal Access Tokens (github_actions)](/til/github_actions/personal-access-token) - 2021-02-23
 * [Github actions basics and syntax (github_actions)](/til/github_actions/basic_gh_action_syntax) - 2021-02-07
 * [Binning data with cut and qcut (pandas)](/til/pandas/binning-data) - 2021-01-15
 * [Using type hints in python (python)](/til/python/type-hinting) - 2021-01-15
 * [Accessing the parts of a file path with Pathlib (python)](/til/python/path-parts-in-pathlib) - 2021-01-15
-* [Enabling the type checking feature in vscode (vs_code)](/til/vs_code/pylance-type-checking) - 2021-01-15
 ## geopandas
 
 * [Convert a closed linestring to a polygon](/til/geopandas/close-linestring-polygon) - 2020-10-15
@@ -78,4 +78,5 @@ Adapted from [simonw/til](https://github.com/simonw/til), which I learned about 
 ## github_actions
 
 * [Github actions basics and syntax](/til/github_actions/basic_gh_action_syntax) - 2021-02-07
+* [Allow workflows to interact with other repos using Personal Access Tokens](/til/github_actions/personal-access-token) - 2021-02-23
 <!-- index ends -->
